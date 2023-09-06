@@ -13,3 +13,10 @@ export default function page({params}:Props) {
     );
 }
 
+
+export function generateStaticParams(){
+    const products = ['pants','skirt'];
+    return products.map((product)=>({
+        itme: product
+    }));
+}

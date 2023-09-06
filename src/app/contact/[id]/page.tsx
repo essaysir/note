@@ -12,4 +12,3 @@ export default function page({params}:Props) {
         </div>
     );
 }
-
